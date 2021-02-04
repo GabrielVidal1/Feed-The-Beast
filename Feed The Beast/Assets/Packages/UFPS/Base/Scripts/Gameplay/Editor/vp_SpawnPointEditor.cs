@@ -160,7 +160,7 @@ public class vp_SpawnPointEditor : Editor
 		// --- handle mouse button input ---
 		if (Event.current.isMouse && Event.current.button == 0)
 		{
-			if (Event.current.type == EventType.mouseDown)
+			if (Event.current.type == EventType.MouseDown)
 			{
 				m_Mousedown = true;
 				if (m_MouseOverAnyHandle)
@@ -187,7 +187,7 @@ public class vp_SpawnPointEditor : Editor
 						m_Modifying = false;
 				}
 			}
-			else if (m_Mousedown && Event.current.type == EventType.mouseUp)
+			else if (m_Mousedown && Event.current.type == EventType.MouseUp)
 			{
 				m_Mousedown = false;
 				m_Modifying = false;

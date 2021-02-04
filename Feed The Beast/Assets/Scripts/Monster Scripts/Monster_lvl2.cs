@@ -20,7 +20,7 @@ public class Monster_lvl2 : MonoBehaviour {
 
 
 	private GameObject soundEmitter;
-	private NavMeshAgent agent;
+	private UnityEngine.AI.NavMeshAgent agent;
 
 	private bool gotoBowl;
 
@@ -29,7 +29,7 @@ public class Monster_lvl2 : MonoBehaviour {
 		soundEmitter = Instantiate (SoundsEmitters [0], transform.position, Quaternion.identity) as GameObject;
 		soundEmitter.transform.SetParent (transform);
 		gotoBowl = false;
-		agent = GetComponent<NavMeshAgent> ();
+		agent = GetComponent<UnityEngine.AI.NavMeshAgent> ();
 	}
 	
 	void Update () 

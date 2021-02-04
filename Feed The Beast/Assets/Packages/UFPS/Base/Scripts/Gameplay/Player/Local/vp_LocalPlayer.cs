@@ -59,7 +59,7 @@ public static class vp_LocalPlayer
 
 	private static Vector2 m_MouseSensBackup = new Vector2(5.0f, 5.0f);
 	private static Texture m_CrosshairBackup = null;
-	private static Texture m_InvisibleTexture = new Texture();
+	private static Texture m_InvisibleTexture = null;
 
 
 	/// <summary>
